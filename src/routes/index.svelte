@@ -99,30 +99,7 @@
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
 		Hey, I’m Sveltekit Starter
 	</h1>
-	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		I'm a developer and creator. I work as the Software Developer at XYZ. You’ve found my personal slice of the
-		internet –&nbsp; while you're here
-		<a sveltekit:prefetch href="/about" aria-label="about me" class="text-blue-700 hover:text-blue-800 transition"
-			>learn more about me.</a
-		>
-	</p>
-
-	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		If you want to use the pre setup blog template then you can use
-		<ExternalLink href="{'https://github.com/navneetsharmaui/sveltekit-blog'}" ariaLabel="{'Sveltekit blog'}"
-			>Sveltekit Blog Template</ExternalLink
-		>
-	</p>
-
-	<!-- Start: Popular Blog Section -->
-	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white"> Most Recent </h2>
-
-	{#if blogs.length > 0}
-		{#each blogs as blog}
-			<BlogPost blog="{blog}" />
-		{/each}
-	{/if}
-	<!-- End: Popular Blog Section -->
+	
 
 	<!-- Start: Top Projects -->
 	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white"> Top Projects </h2>
